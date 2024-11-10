@@ -69,7 +69,8 @@ if birthday_input:
         quote_choice = quotes[str(random.randint(1, 5))]
 
         # お祝いメッセージの生成
-        message = f"今日は、私が生まれてから{days_since_birth}日目です。{quote_choice}を引用して、{style_choice}の口調でお祝いしてください！"
+        message = f"今日は、私が生まれてから{days_since_birth}日目です。{quote_choice}を引用して、\
+            {style_choice}の口調で、簡潔にショートメッセージでお祝いしてください！"
         celebration_message = chat(message)
 
         # 出力
